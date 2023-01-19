@@ -119,6 +119,13 @@ p {
     gap: 10px 20px;
     padding: 20px;
 }
+.vantagens-item:hover{
+    border-left: 4px solid #e21;
+}
+
+.vantagens-item:nth-child(odd) {
+background-color: #F7F7F7;
+}
 
 .vantagens-item p{
     grid-column: 2;
