@@ -77,7 +77,8 @@ p {
 .introducao h1{
     font-size: 2rem;
 }
-.detalhe{
+.introducao::before{
+    content: "";
     width: 60px;
     height: 4px;
     background-color: #e21;
