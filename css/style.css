@@ -155,7 +155,7 @@ p {
 
 /* responsivo */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .conteudo {
         grid-template-columns: 1fr;
     }
@@ -166,7 +166,6 @@ p {
     .subtitulo {
         text-align: center;
     }
-
     .introducao::before {
         display: none;
 
